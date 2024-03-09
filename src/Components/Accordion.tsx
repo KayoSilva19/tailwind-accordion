@@ -1,5 +1,6 @@
 import { ChevronDown, ChevronUp } from 'lucide-react'
 import { useState } from 'react'
+import { useAutoAnimate } from '@formkit/auto-animate/react'
 
 type AccordionProps = {
   title: string
@@ -7,6 +8,7 @@ type AccordionProps = {
 
 export function Accordion({ title }: AccordionProps) {
   const [isOpen, setIsOpen] = useState(false)
+  const [parent] = useAutoAnimate()
 
   function handleOpen() {
     setIsOpen((prevState) => !prevState)
@@ -15,6 +17,7 @@ export function Accordion({ title }: AccordionProps) {
   return (
     <div
       onClick={handleOpen}
+      ref={parent}
       className="group flex w-full min-w-48 max-w-3xl cursor-pointer flex-col rounded-sm border border-transparent bg-zinc-50 p-4 shadow-sm transition-all duration-500 ease-in-out hover:border-violet-700 hover:bg-violet-50 "
     >
       <div className="flex flex-1">
