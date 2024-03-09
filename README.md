@@ -7,7 +7,7 @@ Um component de accordion estilizado com Tailwind
 <br/>
 
 <center>
- <div><img src="./assets/accordion.png" /></div>
+ <div><img src="./src/assets/accordion.png" /></div>
 </center>
 <br/>
 <hr/>
