@@ -18,7 +18,7 @@ export function Accordion({ title }: AccordionProps) {
     <div
       onClick={handleOpen}
       ref={parent}
-      className="group flex w-full min-w-48 max-w-3xl cursor-pointer flex-col rounded-sm border border-transparent bg-zinc-50 p-4 shadow-sm transition-all duration-500 ease-in-out hover:border-violet-700 hover:bg-violet-50 "
+      className="group flex w-full min-w-48 max-w-3xl cursor-pointer flex-col rounded-sm border border-transparent bg-zinc-50 p-4 shadow-sm transition-all duration-500 ease-in-out hover:border-violet-700 hover:bg-violet-50"
     >
       <div className="flex flex-1">
         <span className="text-lg font-semibold text-zinc-600 group-hover:text-violet-500">
