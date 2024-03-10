@@ -36,9 +36,7 @@ export function QrCode() {
         <Input value={inputLink} onChange={hangleChange} />
         <Button.Root onClick={handleGenerateQRCode}>
           <Button.Text text="Gerar" />
-          <Button.Icon>
-            <QrCodeIcon className="h-6 w-6 text-white" />
-          </Button.Icon>
+          <Button.Icon icon={QrCodeIcon} />
         </Button.Root>
       </div>
 
