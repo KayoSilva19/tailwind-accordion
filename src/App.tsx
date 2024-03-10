@@ -6,7 +6,7 @@ export function App() {
     <main
       className="flex h-screen 
         flex-col items-center 
-        gap-6 bg-zinc-800 px-10 pt-16"
+        gap-6 bg-zinc-900 px-10 pt-16"
     >
       <h1 className="text-center text-3xl font-medium text-white">
         React Pattern de Composição
