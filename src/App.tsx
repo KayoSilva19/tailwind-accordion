@@ -8,11 +8,11 @@ export function App() {
         flex-col items-center 
         gap-6 bg-zinc-800 px-10 pt-16"
     >
-      <h1 className="text-3xl font-medium text-white">
+      <h1 className="text-center text-3xl font-medium text-white">
         React Pattern de Composição
       </h1>
       <div
-        className="min-w-large flex flex-col 
+        className="max-w-large flex w-full flex-col 
         gap-3 rounded-sm bg-white p-8 shadow-md"
       >
         <Button.Root onClick={() => console.log('Variação 1')}>
