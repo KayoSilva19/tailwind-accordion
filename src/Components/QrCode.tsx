@@ -30,7 +30,7 @@ export function QrCode() {
   return (
     <div className="flex w-full max-w-3xl flex-col rounded-sm bg-white p-5">
       <span className="text-lg font-bold text-violet-500">
-        Gerador de QR CODE
+        {/* Gerador de QR CODE */}
       </span>
       <div className="mt-4 flex items-center justify-center gap-2">
         <Input value={inputLink} onChange={hangleChange} />
